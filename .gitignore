@@ -1,0 +1,26 @@
+# Visual Studio & C++ Temporary Files
+.vs/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+ipch/
+ServerDebug/
+ClientDebug/
+*.tlog/
+*.tlog
+*.obj
+*.pch
+*.pdb
+*.bsc
+*.ilk
+*.idb
+*.lastbuildstate
+*.suo
+*.user
+*.ncb
+*.sdf
+*.opensdf
+*.log
+*.tmp
+*.bak

@@ -1,0 +1,49 @@
+================================================================================
+                    HƯỚNG DẪN SỬ DỤNG AUTO JX1 (VÕ LÂM 1)
+================================================================================
+
+1. YÊU CẦU HỆ THỐNG
+   - Hệ điều hành: Windows 7 / 8 / 10 / 11 (32-bit & 64-bit).
+   - Yêu cầu môi trường: Microsoft .NET Framework 4.8 trở lên.
+   - Luôn khởi chạy Auto bằng quyền Quản trị viên ("Run as Administrator").
+
+2. CẤU TRÚC THƯ MỤC AUTO
+   - jx1offline.exe       : File chạy chính của Auto (đã mã hóa bảo vệ chống dịch ngược).
+   - import.dll           : Thư viện can thiệp và xử lý phím/chuột/bộ nhớ game.
+   - Config\              : Thư mục chứa cấu hình chiêu thức, vật phẩm, tọa độ.
+   - Themes\              : Giao diện người dùng.
+   - Login\               : Dữ liệu tài khoản đăng nhập tự động.
+   - Save\                : Lưu trạng thái thiết lập của từng nhân vật.
+   - Release\setting.txt  : Cấu hình phím tắt mặc định.
+   - update.bat           : Công cụ tự động cập nhật phiên bản mới khi có bản vá.
+
+3. HƯỚNG DẪN BẮT ĐẦU SỬ DỤNG
+   Bước 1: Giải nén toàn bộ thư mục Auto (không chạy trực tiếp từ trong file nén .zip).
+   Bước 2: Mở game Võ Lâm Truyền Kỳ 1 và đăng nhập nhân vật vào game.
+   Bước 3: Nhấp chuột phải vào file "jx1offline.exe" -> Chọn "Run as administrator".
+   Bước 4: Trên giao diện Auto:
+           - Tên nhân vật sẽ tự động hiển thị trong danh sách.
+           - Chọn nhân vật muốn điều khiển hoặc tích chọn cấu hình tương ứng.
+           - Bật các tính năng: Đánh quái, Bơm thuốc, Theo sau, Dã tẩu, v.v.
+
+4. CÁC TÍNH NĂNG NỔI BẬT
+   - Hệ thống Xe Kéo (Kéo xe / Tổ đội):
+     + Xe chính: Đặt làm trưởng nhóm hoặc chủ xe.
+     + Xe phụ: Bật chế độ "Theo sau" và "Cùng mục tiêu". Xe phụ sẽ tự động theo sau mượt mà,
+       không bị khựng giật, đồng bộ trạng thái PK/Luyện công và target chuẩn xác.
+   - Hồi sinh & Quay lại bãi train:
+     + Khi nhân vật tử trận, Auto tự động hồi sinh về thành và sử dụng Thần Hành Phù để
+       bay lại đúng tọa độ bãi train.
+   - Tự động Hậu cần & Bơm thuốc:
+     + Tự động kiểm tra máu/mana, tự động về thành mua thêm dược phẩm, sửa trang bị,
+       cất tiền vào rương và quay lại bãi luyện công.
+   - Tự động Nhiệm vụ Dã Tẩu:
+     + Tự nhận, giao nhiệm vụ, mở rộng rương, mua vật phẩm cần thiết tại các tiệm tạp hóa.
+
+5. CẬP NHẬT PHIÊN BẢN MỚI
+   - Khi có bản cập nhật mới (dạng file ZIP hoặc file exe update), chỉ cần đặt vào thư mục Auto
+     và nhấp đúp vào "update.bat". Hệ thống sẽ tự động sao chép và cập nhật an toàn.
+
+================================================================================
+Chúc các bạn có trải nghiệm chơi game vui vẻ và thuận tiện nhất!
+================================================================================
