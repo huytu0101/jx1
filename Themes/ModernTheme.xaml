@@ -1,0 +1,281 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <!-- ==================== AUTO JX1 BASE THEME BRUSHES ==================== -->
+    <SolidColorBrush x:Key="ThemeWindowBg" Color="#0B0F19" />
+    <SolidColorBrush x:Key="ThemeWindowBorder" Color="#334155" />
+    <SolidColorBrush x:Key="ThemeTitleBarBg" Color="#111827" />
+    <SolidColorBrush x:Key="ThemeTitleBarFg" Color="#F59E0B" />
+    <SolidColorBrush x:Key="ThemePanelBg" Color="#161F30" />
+    <SolidColorBrush x:Key="ThemeCardBg" Color="#1E293B" />
+    <SolidColorBrush x:Key="ThemeCardBorder" Color="#334155" />
+    <SolidColorBrush x:Key="ThemeTextPrimary" Color="#F8FAFC" />
+    <SolidColorBrush x:Key="ThemeTextSecondary" Color="#94A3B8" />
+    <SolidColorBrush x:Key="ThemeTextMuted" Color="#64748B" />
+    
+    <SolidColorBrush x:Key="ThemeInputBg" Color="#0F172A" />
+    <SolidColorBrush x:Key="ThemeInputFg" Color="#F8FAFC" />
+    <SolidColorBrush x:Key="ThemeInputBorder" Color="#334155" />
+
+    <SolidColorBrush x:Key="ThemeButtonBg" Color="#1E293B" />
+    <SolidColorBrush x:Key="ThemeButtonFg" Color="#F8FAFC" />
+    <SolidColorBrush x:Key="ThemeButtonBorder" Color="#475569" />
+    <SolidColorBrush x:Key="ThemeButtonHover" Color="#334155" />
+
+    <SolidColorBrush x:Key="ThemeGridBg" Color="#0F172A" />
+    <SolidColorBrush x:Key="ThemeGridHeaderBg" Color="#1E293B" />
+    <SolidColorBrush x:Key="ThemeGridHeaderFg" Color="#F8FAFC" />
+    <SolidColorBrush x:Key="ThemeGridRowBg" Color="#111827" />
+    <SolidColorBrush x:Key="ThemeGridRowAlt" Color="#0D1321" />
+    <SolidColorBrush x:Key="ThemeGridRowHover" Color="#1E293B" />
+    <SolidColorBrush x:Key="ThemeGridRowSelected" Color="#1E3A5F" />
+    
+    <SolidColorBrush x:Key="ThemeStatusBarBg" Color="#111827" />
+    <SolidColorBrush x:Key="ThemeStatusBarBorder" Color="#334155" />
+    <SolidColorBrush x:Key="ThemeSplitterBg" Color="#1F2937" />
+
+    <!-- HIGHLIGHT COLORS ADAPTIVE -->
+    <SolidColorBrush x:Key="ThemeHighlightCyan" Color="#38BDF8" />
+    <SolidColorBrush x:Key="ThemeHighlightGold" Color="#F59E0B" />
+    <SolidColorBrush x:Key="ThemeHighlightGreen" Color="#10B981" />
+
+    <!-- KPI DASHBOARD STATS CARDS (DYNAMIC ADAPTIVE) -->
+    <SolidColorBrush x:Key="CardOnlineBg" Color="#0B2319" />
+    <SolidColorBrush x:Key="CardOnlineBorder" Color="#059669" />
+    <SolidColorBrush x:Key="CardOnlineFg" Color="#10B981" />
+    <SolidColorBrush x:Key="CardOnlineTitle" Color="#34D399" />
+
+    <SolidColorBrush x:Key="CardTotalAccBg" Color="#22180C" />
+    <SolidColorBrush x:Key="CardTotalAccBorder" Color="#D97706" />
+    <SolidColorBrush x:Key="CardTotalAccFg" Color="#F59E0B" />
+    <SolidColorBrush x:Key="CardTotalAccTitle" Color="#FBBF24" />
+
+    <SolidColorBrush x:Key="CardVipBg" Color="#221B0D" />
+    <SolidColorBrush x:Key="CardVipBorder" Color="#CA8A04" />
+    <SolidColorBrush x:Key="CardVipFg" Color="#EAB308" />
+    <SolidColorBrush x:Key="CardVipTitle" Color="#FDE047" />
+
+    <SolidColorBrush x:Key="CardTrialBg" Color="#0E1E28" />
+    <SolidColorBrush x:Key="CardTrialBorder" Color="#0284C7" />
+    <SolidColorBrush x:Key="CardTrialFg" Color="#0EA5E9" />
+    <SolidColorBrush x:Key="CardTrialTitle" Color="#38BDF8" />
+
+    <SolidColorBrush x:Key="CardBlockedBg" Color="#251216" />
+    <SolidColorBrush x:Key="CardBlockedBorder" Color="#DC2626" />
+    <SolidColorBrush x:Key="CardBlockedFg" Color="#EF4444" />
+    <SolidColorBrush x:Key="CardBlockedTitle" Color="#F87171" />
+
+    <!-- TAB CHÍNH: VÀNG KIM & XANH NEON -->
+    <SolidColorBrush x:Key="MainGold" Color="#F59E0B" />
+    <SolidColorBrush x:Key="MainGoldHover" Color="#FBBF24" />
+    <SolidColorBrush x:Key="MainBlue" Color="#3B82F6" />
+    <SolidColorBrush x:Key="MainCyan" Color="#06B6D4" />
+    <LinearGradientBrush x:Key="MainTabGradient" StartPoint="0,0" EndPoint="1,1">
+        <GradientStop Color="#F59E0B" Offset="0" />
+        <GradientStop Color="#D97706" Offset="1" />
+    </LinearGradientBrush>
+    <LinearGradientBrush x:Key="MainCombatGradient" StartPoint="0,0" EndPoint="1,1">
+        <GradientStop Color="#2563EB" Offset="0" />
+        <GradientStop Color="#1D4ED8" Offset="1" />
+    </LinearGradientBrush>
+
+    <!-- TAB PHỤ: TÍM HUYỀN ẢO & XANH NGỌC -->
+    <SolidColorBrush x:Key="SubPurple" Color="#8B5CF6" />
+    <SolidColorBrush x:Key="SubPurpleHover" Color="#A78BFA" />
+    <SolidColorBrush x:Key="SubEmerald" Color="#10B981" />
+    <SolidColorBrush x:Key="SubTeal" Color="#14B8A6" />
+    <LinearGradientBrush x:Key="SubTabGradient" StartPoint="0,0" EndPoint="1,1">
+        <GradientStop Color="#8B5CF6" Offset="0" />
+        <GradientStop Color="#6D28D9" Offset="1" />
+    </LinearGradientBrush>
+
+    <SolidColorBrush x:Key="StatusRed" Color="#EF4444" />
+    <SolidColorBrush x:Key="StatusGreen" Color="#10B981" />
+    <SolidColorBrush x:Key="StatusYellow" Color="#F59E0B" />
+
+    <!-- ==================== TAB CONTROL & TAB ITEM STYLES ==================== -->
+    
+    <!-- TAB CHÍNH STYLE (Gold/Amber Glow) -->
+    <Style x:Key="MainTabItemStyle" TargetType="{x:Type TabItem}">
+        <Setter Property="Foreground" Value="{DynamicResource ThemeTextSecondary}" />
+        <Setter Property="FontFamily" Value="Tahoma, Segoe UI" />
+        <Setter Property="FontSize" Value="11.5" />
+        <Setter Property="FontWeight" Value="SemiBold" />
+        <Setter Property="Padding" Value="12,6" />
+        <Setter Property="Margin" Value="2,0,2,0" />
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="{x:Type TabItem}">
+                    <Border x:Name="TabBorder" CornerRadius="6,6,0,0" Background="{DynamicResource ThemeCardBg}" BorderBrush="{DynamicResource ThemeCardBorder}" BorderThickness="1,1,1,0" Padding="{TemplateBinding Padding}">
+                        <StackPanel Orientation="Horizontal">
+                            <Ellipse x:Name="IconDot" Width="7" Height="7" Fill="#F59E0B" Margin="0,0,6,0" VerticalAlignment="Center" />
+                            <ContentPresenter x:Name="ContentSite" ContentSource="Header" VerticalAlignment="Center" HorizontalAlignment="Center" />
+                        </StackPanel>
+                    </Border>
+                    <ControlTemplate.Triggers>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter TargetName="TabBorder" Property="Background" Value="{DynamicResource ThemePanelBg}" />
+                            <Setter TargetName="TabBorder" Property="BorderBrush" Value="#F59E0B" />
+                            <Setter Property="Foreground" Value="{DynamicResource ThemeTextPrimary}" />
+                        </Trigger>
+                        <Trigger Property="IsSelected" Value="True">
+                            <Setter TargetName="TabBorder" Property="Background" Value="{StaticResource MainTabGradient}" />
+                            <Setter TargetName="TabBorder" Property="BorderBrush" Value="#F59E0B" />
+                            <Setter TargetName="IconDot" Property="Fill" Value="#FFFFFF" />
+                            <Setter Property="Foreground" Value="#FFFFFF" />
+                        </Trigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+    <!-- TAB PHỤ STYLE (Purple/Emerald Glow) -->
+    <Style x:Key="SubTabItemStyle" TargetType="{x:Type TabItem}">
+        <Setter Property="Foreground" Value="{DynamicResource ThemeTextSecondary}" />
+        <Setter Property="FontFamily" Value="Tahoma, Segoe UI" />
+        <Setter Property="FontSize" Value="11.5" />
+        <Setter Property="FontWeight" Value="SemiBold" />
+        <Setter Property="Padding" Value="12,6" />
+        <Setter Property="Margin" Value="2,0,2,0" />
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="{x:Type TabItem}">
+                    <Border x:Name="TabBorder" CornerRadius="6,6,0,0" Background="{DynamicResource ThemeCardBg}" BorderBrush="{DynamicResource ThemeCardBorder}" BorderThickness="1,1,1,0" Padding="{TemplateBinding Padding}">
+                        <StackPanel Orientation="Horizontal">
+                            <Ellipse x:Name="IconDot" Width="7" Height="7" Fill="#8B5CF6" Margin="0,0,6,0" VerticalAlignment="Center" />
+                            <ContentPresenter x:Name="ContentSite" ContentSource="Header" VerticalAlignment="Center" HorizontalAlignment="Center" />
+                        </StackPanel>
+                    </Border>
+                    <ControlTemplate.Triggers>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter TargetName="TabBorder" Property="Background" Value="{DynamicResource ThemePanelBg}" />
+                            <Setter TargetName="TabBorder" Property="BorderBrush" Value="#8B5CF6" />
+                            <Setter Property="Foreground" Value="{DynamicResource ThemeTextPrimary}" />
+                        </Trigger>
+                        <Trigger Property="IsSelected" Value="True">
+                            <Setter TargetName="TabBorder" Property="Background" Value="{StaticResource SubTabGradient}" />
+                            <Setter TargetName="TabBorder" Property="BorderBrush" Value="#8B5CF6" />
+                            <Setter TargetName="IconDot" Property="Fill" Value="#FFFFFF" />
+                            <Setter Property="Foreground" Value="#FFFFFF" />
+                        </Trigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+    <!-- ==================== MODERN BUTTONS (DYNAMIC THEME & TAHOMA) ==================== -->
+    <Style x:Key="ModernButton" TargetType="{x:Type Button}">
+        <Setter Property="Background" Value="{DynamicResource ThemeButtonBg}" />
+        <Setter Property="Foreground" Value="{DynamicResource ThemeButtonFg}" />
+        <Setter Property="BorderBrush" Value="{DynamicResource ThemeButtonBorder}" />
+        <Setter Property="BorderThickness" Value="1" />
+        <Setter Property="FontFamily" Value="Tahoma, Segoe UI" />
+        <Setter Property="FontSize" Value="11" />
+        <Setter Property="FontWeight" Value="SemiBold" />
+        <Setter Property="Padding" Value="8,4" />
+        <Setter Property="Cursor" Value="Hand" />
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="{x:Type Button}">
+                    <Border x:Name="BtnBorder" CornerRadius="4" Background="{TemplateBinding Background}" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}" Padding="{TemplateBinding Padding}">
+                        <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center" />
+                    </Border>
+                    <ControlTemplate.Triggers>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter TargetName="BtnBorder" Property="Background" Value="{DynamicResource ThemeButtonHover}" />
+                            <Setter TargetName="BtnBorder" Property="BorderBrush" Value="#F59E0B" />
+                        </Trigger>
+                        <Trigger Property="IsPressed" Value="True">
+                            <Setter TargetName="BtnBorder" Property="Opacity" Value="0.8" />
+                        </Trigger>
+                        <Trigger Property="IsEnabled" Value="False">
+                            <Setter TargetName="BtnBorder" Property="Opacity" Value="0.45" />
+                        </Trigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+    <Style x:Key="GoldButton" TargetType="{x:Type Button}" BasedOn="{StaticResource ModernButton}">
+        <Setter Property="Background" Value="{StaticResource MainTabGradient}" />
+        <Setter Property="BorderBrush" Value="#D97706" />
+        <Setter Property="Foreground" Value="#FFFFFF" />
+    </Style>
+
+    <Style x:Key="PurpleButton" TargetType="{x:Type Button}" BasedOn="{StaticResource ModernButton}">
+        <Setter Property="Background" Value="{StaticResource SubTabGradient}" />
+        <Setter Property="BorderBrush" Value="#6D28D9" />
+        <Setter Property="Foreground" Value="#FFFFFF" />
+    </Style>
+
+    <Style x:Key="GreenButton" TargetType="{x:Type Button}" BasedOn="{StaticResource ModernButton}">
+        <Setter Property="Background" Value="#10B981" />
+        <Setter Property="BorderBrush" Value="#059669" />
+        <Setter Property="Foreground" Value="#FFFFFF" />
+    </Style>
+
+    <Style x:Key="CombatButton" TargetType="{x:Type Button}" BasedOn="{StaticResource ModernButton}">
+        <Setter Property="Background" Value="{StaticResource MainCombatGradient}" />
+        <Setter Property="BorderBrush" Value="#1D4ED8" />
+        <Setter Property="Foreground" Value="#FFFFFF" />
+    </Style>
+
+    <!-- ==================== MODERN CHECKBOX ==================== -->
+    <Style x:Key="ModernCheckBox" TargetType="{x:Type CheckBox}">
+        <Setter Property="Foreground" Value="{DynamicResource ThemeTextPrimary}" />
+        <Setter Property="FontFamily" Value="Tahoma, Segoe UI" />
+        <Setter Property="FontSize" Value="11" />
+        <Setter Property="Cursor" Value="Hand" />
+        <Setter Property="VerticalContentAlignment" Value="Center" />
+        <Setter Property="Margin" Value="2,2" />
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="{x:Type CheckBox}">
+                    <StackPanel Orientation="Horizontal">
+                        <Border x:Name="CheckBorder" Width="15" Height="15" CornerRadius="3" Background="{DynamicResource ThemeInputBg}" BorderBrush="{DynamicResource ThemeInputBorder}" BorderThickness="1" Margin="0,0,6,0" VerticalAlignment="Center">
+                            <Path x:Name="CheckMark" Data="M 2,6 L 6,10 L 12,2" Stroke="#F59E0B" StrokeThickness="2" Visibility="Collapsed" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,-1,0,0" />
+                        </Border>
+                        <ContentPresenter VerticalAlignment="Center" />
+                    </StackPanel>
+                    <ControlTemplate.Triggers>
+                        <Trigger Property="IsChecked" Value="True">
+                            <Setter TargetName="CheckMark" Property="Visibility" Value="Visible" />
+                            <Setter TargetName="CheckBorder" Property="BorderBrush" Value="#F59E0B" />
+                        </Trigger>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter TargetName="CheckBorder" Property="BorderBrush" Value="#38BDF8" />
+                        </Trigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+    <!-- ==================== MODERN COMBOBOX ==================== -->
+    <Style x:Key="ModernComboBox" TargetType="{x:Type ComboBox}">
+        <Setter Property="Background" Value="{DynamicResource ThemeInputBg}" />
+        <Setter Property="Foreground" Value="{DynamicResource ThemeInputFg}" />
+        <Setter Property="BorderBrush" Value="{DynamicResource ThemeInputBorder}" />
+        <Setter Property="BorderThickness" Value="1" />
+        <Setter Property="FontFamily" Value="Tahoma, Segoe UI" />
+        <Setter Property="FontSize" Value="11" />
+        <Setter Property="Height" Value="26" />
+        <Setter Property="Padding" Value="6,2" />
+    </Style>
+
+    <!-- ==================== MODERN TEXTBOX ==================== -->
+    <Style x:Key="ModernTextBox" TargetType="{x:Type TextBox}">
+        <Setter Property="Background" Value="{DynamicResource ThemeInputBg}" />
+        <Setter Property="Foreground" Value="{DynamicResource ThemeInputFg}" />
+        <Setter Property="BorderBrush" Value="{DynamicResource ThemeInputBorder}" />
+        <Setter Property="BorderThickness" Value="1" />
+        <Setter Property="FontFamily" Value="Tahoma, Segoe UI" />
+        <Setter Property="FontSize" Value="11" />
+        <Setter Property="Padding" Value="6,3" />
+        <Setter Property="CaretBrush" Value="#F59E0B" />
+    </Style>
+
+</ResourceDictionary>

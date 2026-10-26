@@ -1,0 +1,13 @@
+﻿{
+    "version":  "1.4",
+    "release_date":  "2026-10-26 10:22:46",
+    "package_zip":  "AutoJX1_Full_Package.zip",
+    "package_zip_sha256":  "CC1FFFFA6C32F42266DD6BA6069598CF8659B8DB754F013DACB80D8E634D5222",
+    "package_rar":  "AutoJX1_pass_123456.rar",
+    "package_rar_sha256":  "46DE06B95AB243736394ACF49EC05CF8E27C01ED7ECA17F768DB0CDEED5EDEA4",
+    "package_password":  "123456",
+    "exe_sha256":  "9068F7A8A1D037F538179B97220D26320745B557AA2F055EF8F6FE5E03B98B6F",
+    "size_zip_mb":  1.6,
+    "size_rar_mb":  1.39,
+    "update_notes":  "Nang cap Da Tau chuyen nghiep: Ho tro di mua trang bi tai 7 thanh thi, Luyen cong khi khong co do, bo sung Lua chon 2 (Fallback Action) linh hoat."
+}
