@@ -24,3 +24,17 @@ ClientDebug/
 *.log
 *.tmp
 *.bak
+
+# Custom Excluded Files & Folders (from GitHub Easy TreeView)
+/Config/
+/Login/
+/Release/
+/Save/
+/Themes/
+/HUONG_DAN_SU_DUNG.txt
+/import.dll
+/jx1offline.exe
+/jx1offline.exe.config
+/UnRAR.exe
+/update.bat
+/update_manifest.json

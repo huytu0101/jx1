@@ -20,6 +20,7 @@ if exist "%TARGET_DIR%update_package.zip" (
     del /f /q "%TARGET_DIR%update_package.zip" >nul 2>&1
 )
 
+<<<<<<< HEAD
 :: 2. TRUONG HOP GOI CAP NHAT LA FILE RAR CO MAT KHAU (VD: AutoJX1_pass_123456.rar)
 for %%f in ("%TARGET_DIR%*.rar") do (
     echo Phat hien goi RAR: %%~nxf, dang giai nen bang UnRAR voi pass 123456...
@@ -33,6 +34,9 @@ for %%f in ("%TARGET_DIR%*.rar") do (
 )
 
 :: 3. TRUONG HOP CAP NHAT LA FILE EXE TRUC TIEP
+=======
+:: 2. TRUONG HOP CAP NHAT LA FILE EXE TRUC TIEP
+>>>>>>> 48ef4f9a70f7db87ff20228b9ecdd4dff35afbf6
 if exist "%TARGET_DIR%jx1offline_update.exe" (
     copy /y "%TARGET_DIR%jx1offline_update.exe" "%TARGET_DIR%jx1offline.exe" >nul
     del /f /q "%TARGET_DIR%jx1offline_update.exe" >nul 2>&1

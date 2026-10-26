@@ -1,4 +1,5 @@
 ﻿{
+<<<<<<< HEAD
     "version":  "1.4",
     "release_date":  "2026-10-26 10:22:46",
     "package_zip":  "AutoJX1_Full_Package.zip",
@@ -10,4 +11,14 @@
     "size_zip_mb":  1.6,
     "size_rar_mb":  1.39,
     "update_notes":  "Nang cap Da Tau chuyen nghiep: Ho tro di mua trang bi tai 7 thanh thi, Luyen cong khi khong co do, bo sung Lua chon 2 (Fallback Action) linh hoat."
+=======
+    "version":  "1.3",
+    "release_date":  "2026-10-25 02:31:16",
+    "package_name":  "AutoJX1_Full_Package.zip",
+    "package_sha256":  "AC230616CFF5AD4863AC651BF2F4682092FAA3B8A3F2598359E958B2E0DF73A7",
+    "exe_sha256":  "F1A533DF62420A3F88DB1FEC57725A45688058AC82E21678015B28B866230F6B",
+    "size_bytes":  1385253,
+    "size_mb":  1.32,
+    "update_notes":  "Nang cap he thong Auto Update chuyen gia (1-Click, Silent Download, Auto Backup \u0026 Rollback, Kiem tra \u0026 Va game.exe 3 loi cot loi)."
+>>>>>>> 48ef4f9a70f7db87ff20228b9ecdd4dff35afbf6
 }
