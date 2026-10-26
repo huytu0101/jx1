@@ -24,7 +24,3 @@ ClientDebug/
 *.log
 *.tmp
 *.bak
-
-# Custom Excluded Files & Folders (from GitHub Easy TreeView)
-/Release/
-/AutoJX1_pass_123456.rar
